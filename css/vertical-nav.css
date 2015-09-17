@@ -16,6 +16,10 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
+#cd-vertical-nav {
+  position: absolute;
+  top: -2000px;
+}
 #cd-vertical-nav ul{
 	list-style:none;
 }
