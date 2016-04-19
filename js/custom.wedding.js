@@ -287,7 +287,7 @@ $(window).scroll(function() {
 
 google.maps.event.addDomListener(window, 'load', init);
 function init() {	
-	var mainPosition = new google.maps.LatLng(-22.9604403, -43.2717699);
+	var mainPosition = new google.maps.LatLng(-22.947964, -43.262225);
 	var mapOptions = {
 		zoom: 16,
 		scrollwheel: false,
@@ -299,12 +299,12 @@ function init() {
 	var map = new google.maps.Map(mapElement, mapOptions);
 	
 	var image = 'images/marker.png';
-	var myLatLng = new google.maps.LatLng(-22.9604403, -43.2717699);
+	var myLatLng = new google.maps.LatLng(-22.947964, -43.262225);
 	var mapMarker = new google.maps.Marker({
 		position: myLatLng,
 		map: map,
 		icon: image,
-		title:  'Casa Branca'
+		title:  'Maison Delly'
 	});
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString
